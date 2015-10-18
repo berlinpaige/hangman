@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman-Countries of the world</title>
+    <link rel="shortcut icon" href="hangman6.png">
+  	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class='container text-center'>
+       <h1>Hangman</h1>
+       <h3>Countries of the World</h3>
+       <h5></h5>
+    </div>
+    <div class='container text-center'>
+  	  <button type='button' id='newGame' class='newGame btn btn-lg btn-default'><a href="#" onclick="window.location.reload(true);">New Game</a></button>
+      <button type='button' class='newWordButton btn btn-lg btn-default'>Get A New Word</button>
+      <button type='button' class='getAnswerButton btn btn-lg btn-default'>Get Answer</button>
+      <div class='underscores'>	
+        <h2 class = 'empty'></h2>
+        <h2 class = 'answer'></h2>
+      </div>     
+      <div id='letterButtons' class='buttons text-center'>
+      	<button type='button' class='letter btn btn-md btn-default'>A</button>
+      	<button type='button' class='letter btn btn-md btn-default'>B</button>
+      	<button type='button' class='letter btn btn-md btn-default'>C</button>
+      	<button type='button' class='letter btn btn-md btn-default'>D</button>
+      	<button type='button' class='letter btn btn-md btn-default'>E</button>
+      	<button type='button' class='letter btn btn-md btn-default'>F</button>
+      	<button type='button' class='letter btn btn-md btn-default'>G</button>
+      	<button type='button' class='letter btn btn-md btn-default'>H</button>
+      	<button type='button' class='letter btn btn-md btn-default'>I</button>
+      	<button type='button' class='letter btn btn-md btn-default'>J</button>
+      	<button type='button' class='letter btn btn-md btn-default'>K</button>
+      	<button type='button' class='letter btn btn-md btn-default'>L</button>
+      	<button type='button' class='letter btn btn-md btn-default'>M</button>
+      	<button type='button' class='letter btn btn-md btn-default'>N</button>
+      	<button type='button' class='letter btn btn-md btn-default'>O</button>
+      	<button type='button' class='letter btn btn-md btn-default'>P</button>
+      	<button type='button' class='letter btn btn-md btn-default'>Q</button>
+      	<button type='button' class='letter btn btn-md btn-default'>R</button>
+      	<button type='button' class='letter btn btn-md btn-default'>S</button>
+      	<button type='button' class='letter btn btn-md btn-default'>T</button>
+      	<button type='button' class='letter btn btn-md btn-default'>U</button>
+      	<button type='button' class='letter btn btn-md btn-default'>V</button>
+      	<button type='button' class='letter btn btn-md btn-default'>W</button>
+      	<button type='button' class='letter btn btn-md btn-default'>X</button>
+      	<button type='button' class='letter btn btn-md btn-default'>Y</button>
+      	<button type='button' class='letter btn btn-md btn-default'>Z</button>
+      </div>
+      <div class='alreadyGuessed'>  
+        <h4 class = 'guessedLetters'>Incorrect Letters: </h4>
+      </div>
+      <div class='photos'>
+        <img class='0' src ='hangman0.png' alt="hangman image">
+        <img class='1'src ='hangman1.png' alt="hangman image">
+        <img class='2'src ='hangman2.png' alt="hangman image">
+        <img class='3'src ='hangman3.png' alt="hangman image">
+        <img class='4'src ='hangman4.png' alt="hangman image">
+        <img class='5'src ='hangman5.png' alt="hangman image">
+        <img class='6'src ='hangman6.png' alt="hangman image">
+        <img class='7'src ='hangman7.png' alt="hangman image">
+        <img class='8'src ='hangman8.png' alt="hangman image">
+        <img class='9'src ='hangman9.png' alt="hangman image">
+        <img class='10'src ='hangman10.png' alt="hangman image">
+      </div>  
+    </div>
+  	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  </body>	
+</html>  	
